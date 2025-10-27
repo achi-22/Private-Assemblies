@@ -56,5 +56,11 @@ namespace Private_Assemblies
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+
+        private void cmbOperator_SelectedIndexChanged(object sender, EventArgs e)
+        { }
+
+        private void label1_Click(object sender, EventArgs e)
+        { }
     }
 }
