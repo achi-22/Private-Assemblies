@@ -86,6 +86,11 @@
             this.cmbOperator.BackColor = System.Drawing.Color.Black;
             this.cmbOperator.ForeColor = System.Drawing.Color.White;
             this.cmbOperator.FormattingEnabled = true;
+            this.cmbOperator.Items.AddRange(new object[] {
+            "+",
+            "-",
+            "*",
+            "/"});
             this.cmbOperator.Location = new System.Drawing.Point(118, 142);
             this.cmbOperator.Name = "cmbOperator";
             this.cmbOperator.Size = new System.Drawing.Size(121, 21);
